@@ -18,7 +18,7 @@ This dataset is an extension of the previous study [KommonGen](https://www.korea
 /NAACL2022_Korean_CommonGen	
 	/dataset # Dataset for Korean CommonGen train/dev/test
 		- korean_commongen_official_train.txt/json 
-		- korean_commongen_official_dev.txt/json
+		- korean_commongen_official_dev.txt/json (revising...)
 		- korean_commongen_official_test.txt/json 
 	
 		/ablation_1 # Dataset for Concept Ablation Study
