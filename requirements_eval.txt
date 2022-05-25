@@ -1,0 +1,8 @@
+transformers==3.0.2
+datasets
+konlpy
+sentencepiece
+bokeh
+spicy
+nltk
+torch
