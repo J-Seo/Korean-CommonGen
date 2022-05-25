@@ -233,6 +233,8 @@ Then, installing conda pytorch can be one of the solutions.
 conda install pytorch=1.9.0 torchvision torchaudio cudatoolkit=11.1 -c pytorch -c nvidia
 ```
 
+**We basically modified the code to enable evaluation even in the CPU environment.**
+
 ## 5. Training & Decoding
 
 To train and genetate the sentences, we use pytorch framework and [HuggingFace](https://github.com/huggingface/transformers) language modeling.
