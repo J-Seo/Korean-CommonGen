@@ -1,0 +1,3 @@
+[console_scripts]
+kobertscore = KoBERTScore.cli:main
+
