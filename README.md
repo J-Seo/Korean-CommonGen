@@ -166,13 +166,16 @@ This dataset is an extension of the previous study [KommonGen](https://www.korea
 
 [https://konlpy.org/ko/latest/index.html](https://konlpy.org/ko/latest/index.html)
 
-(1) Ubuntu 16.04 ~ 20.04
+(1) Ubuntu 16.04 ~
 
 ```bash
 $ sudo apt-get install g++ openjdk-7-jdk # Install Java 1.7+
 $ sudo apt-get install python-dev; pip install konlpy     # Python 2.x
 $ sudo apt-get install python3-dev; pip3 install konlpy   # Python 3.x
 ```
+
+you should check the optimal version of openjdk considering the ubuntu version (if you use ubuntu 20.04, then you should install openjdk-11-jdk)
+
 
 (2) MAC
 
@@ -186,9 +189,11 @@ $ pip3 install konlpy    # Python 3.x
 (1) Ubuntu 16.04 ~ 20.04
 
 ```bash
-$ sudo apt-get install curl
+$ sudo apt-get install curl git
 $ bash <(curl -s https://raw.githubusercontent.com/konlpy/konlpy/master/scripts/mecab.sh)
 ```
+
+if you have some problem in loading mecab, it is one of the options using *bash <(curl -s https://raw.githubusercontent.com/konlpy/konlpy/master/scripts/mecab.sh)* in your conda environment.
 
 (2) MAC
 
@@ -230,7 +235,7 @@ RuntimeError: CUDA error: no kernel image is available for execution on the devi
 Then, installing conda pytorch can be one of the solutions.
 
 ```bash
-conda install pytorch=1.9.0 torchvision torchaudio cudatoolkit=11.1 -c pytorch -c nvidia
+pip3 install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
 **We basically modified the code to enable evaluation even in the CPU environment.**
