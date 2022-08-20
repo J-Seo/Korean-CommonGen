@@ -6,7 +6,7 @@ A Dog Is Passing Over The Jet? A Text-Generation Dataset for Korean Commonsense 
 
 [NLP & AI Lab](http://blp.korea.ac.kr/), Korea University. 
 
-*Jaehyung Seo, Seounghoon Lee, Chanjun Park, Yoonna Jang, Hyeonseok Moon, Sugyeong Eo, Seonmin Koo, and Heuiseok Lim*. **A Dog Is Passing Over The Jet? A Text-Generation Dataset for Korean Commonsense Reasoning and Evaluation. Our paper is will be published in findings of NAACL 2022**. This code is designed to evaluate the results of model generation. 
+*Jaehyung Seo, Seounghoon Lee, Chanjun Park, Yoonna Jang, Hyeonseok Moon, Sugyeong Eo, Seonmin Koo, and Heuiseok Lim*. [**A Dog Is Passing Over The Jet? A Text-Generation Dataset for Korean Commonsense Reasoning and Evaluation**](https://aclanthology.org/2022.findings-naacl.172/). Our paper was published in findings of NAACL 2022. This code is designed to evaluate the results of model generation. 
 
 The whole dataset is publicly available at [Korean CommonGen](https://aihub.or.kr/aihubdata/data/view.do?currMenu=120&topMenu=100&aihubDataSe=extrldata&dataSetSn=459) in **AI-HUB**.
 
