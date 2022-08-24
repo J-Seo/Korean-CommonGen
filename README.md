@@ -250,7 +250,24 @@ Using the pytorch pipeline disclosed by huggingface, it will be possible to impl
 ## 6. Citation
 
 ```
-Will be published
+@inproceedings{seo-etal-2022-dog,
+    title = "A Dog Is Passing Over The Jet? A Text-Generation Dataset for {K}orean Commonsense Reasoning and Evaluation",
+    author = "Seo, Jaehyung  and
+      Lee, Seounghoon  and
+      Park, Chanjun  and
+      Jang, Yoonna  and
+      Moon, Hyeonseok  and
+      Eo, Sugyeong  and
+      Koo, Seonmin  and
+      Lim, Heuiseok",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2022",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-naacl.172",
+    doi = "10.18653/v1/2022.findings-naacl.172",
+    pages = "2233--2249"}
 ```
 
 ## 7. Thanks
